@@ -1,2 +1,2 @@
-# Fitness Store
- This was my task for B-club IIT Kharagpur
+# fitness-store
+a fiction athlete store  | HTML | CSS | Javascript

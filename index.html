@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fitness Store</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet">
+    <link rel="icon" href="./Images/SJsquare Logo.png" type="image/png">  
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/SJsquare Logo.png" alt="" width="125px">
+        </div>
+
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customer">Our Customers</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <li><a href="#">Account</a></li> -->
+          </ul>
+        </nav>
+
+        <img src="images/cart.png" width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          <h1>Give Your Workout <br>A New Style</h1>
+          <p>Success isn't always about greatness. It's about consistency.<br> Consistent hard work gains success.
+            Greatness will come</p>
+          <a href="#products" class="btn">Explore Now &#x2794;</a>
+        </div>
+
+        <div class="col-2">
+          <img src="images/ath3.jpg" >
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--features categories -->
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="images/category-1.jpg">
+        </div>
+        <div class="col-3">
+          <img src="images/category-2.jpg">
+        </div>
+        <div class="col-3">
+          <img src="images/category-3.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="products">
+    <!-- featured-products -->
+  <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-1.jpg">
+        <h4>Red Printed T-Shirt</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$44.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-2.jpg">
+        <h4>HRX Shoes</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$32.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-3.jpg">
+        <h4>Red Printed T-Shirt</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$10.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-4.jpg">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$80.33</p>
+      </div>
+    </div>
+
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-5.jpg">
+        <h4>Red Printed T-Shirt</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$44.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-6.jpg">
+        <h4>HRX Shoes</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$32.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-7.jpg">
+        <h4>Red Printed T-Shirt</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$10.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-8.jpg">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$80.33</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <img src="images/product-9.jpg">
+        <h4>Red Printed T-Shirt</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$44.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-10.jpg">
+        <h4>HRX Shoes</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$32.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-11.jpg">
+        <h4>Red Printed T-Shirt</h2>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$10.33</p>
+      </div>
+
+      <div class="col-4">
+        <img src="images/product-12.jpg">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$80.33</p>
+      </div>
+    </div>
+  </div>
+
+  </section>
+
+  <!-- offer -->
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/exclusive.png" class="offer-img">
+        </div>
+        <div class="col-2">
+          <p>Exclusive available on Redstore</p>
+          <h1>Smart Band 4</h1>
+          <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, rerum odit facilis maiores tempora,
+            veritatis, soluta deleniti voluptatem eligendi asperiores voluptate? Consequatur, expedita? Aliquam est
+            similique cupiditate alias voluptates necessitatibus! <br></small>
+          <a class="btn" href="">Buy Now &#x2794;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!---testimonial -->
+  <section id="customer">
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore in eveniet vel ad atque molestiae
+              consequatur obcaecati assumenda esse nihil unde dolorum, ipsam repellat officia? Eveniet autem asperiores
+              beatae culpa?
+            </p>
+  
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+  
+            <img src="images/user-1.png">
+            <h3>Lita Magnolia</h3>
+  
+  
+          </div>
+  
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore in eveniet vel ad atque molestiae
+              consequatur obcaecati assumenda esse nihil unde dolorum, ipsam repellat officia? Eveniet autem asperiores
+              beatae culpa?
+            </p>
+  
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+  
+            <img src="images/user-2.png">
+            <h3>Xing Kulian</h3>
+  
+  
+          </div>
+  
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore in eveniet vel ad atque molestiae
+              consequatur obcaecati assumenda esse nihil unde dolorum, ipsam repellat officia? Eveniet autem asperiores
+              beatae culpa?
+            </p>
+  
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+  
+            <img src="images/user-3.png">
+            <h3>Wilanslaus Kitengo</h3>
+  
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- brands -->
+  <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img src="images/lamborghini-logo.jpg" alt="">
+        </div>
+        <div class="col-5">
+          <img src="images/stripe-logo.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="images/logo-coca-cola.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="images/logo-paypal.png" alt="">
+        </div>
+        <div class="col-5">
+          <img src="images/logo-philips.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="contact" class="contact">
+    <div class="container">
+        <h1 class="section-heading"> Contact <span>Us</span></h1>
+        <p>Share your thoughts, If you have any query or any Suggestion.</p>
+        <div class="card-wrapper">
+            <!-- <div class="card">
+                <img src="./Images/mail logo.png" width="100px" height="100px">
+                <h1>Mail Me On</h1>
+                <h6><a href="mailto:sanketjagtap158@gmail.com">sanketjagtap158@gmail.com</h6></a>
+            </div> -->
+        </div>
+          <form action="https://formspree.io/f/xrgjyqvo" method="post">
+        <div class="input-wrap">
+            <input type="text" id="name" name="name" placeholder="Your Name *" required>
+            <input type="email" id="email" name="email" placeholder="Your Email *" required>
+        </div>
+        <div class="input-wrap-2">
+            <input type="text" id="subject" name="subject" placeholder="Your Subject... *" required>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message..." required></textarea>
+
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn btn-primary">Send Message</button>
+        </form>
+        </div>
+        <div id="status"></div>
+
+        
+
+    </div>
+</section>
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Athelete Foot App</h3>
+          <p>Download app for android and ios mobile apps</p>
+          <div class="app-logo">
+            <img src="images/play-store.png">
+            <img class="store-2" src="images/app-store.png" alt="">
+          </div>
+        </div>
+
+        <div class="footer-col-2">
+          <img class="footer-logo" src="images/SJsquare Logo.png" alt="">
+          <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to many</p>
+        </div>
+
+        <div class="footer-col-3">
+          <h3>Usefull Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <a href="https://www.linkedin.com/in/sanket-jagtap-2131a9214/" target="_blank"><img src="./Images/linkedin-logo-png-1837.png" alt="" width="40px" height="40px"></a>
+                <a href="https://www.instagram.com/sanket_jagtap_1508/" target="_blank"><img src="./Images/instagram.png" alt="" width="40px" height="40px"></a>
+                <a href="https://www.facebook.com/profile.php?id=100075534761445" target="_blank"><img src="./Images/facebook.png" alt="" width="40px" height="40px"></a>
+                <a href="https://www.youtube.com/channel/UCez_UhO4w1zdhxorvawYsXA" target="_blank"><img src="./Images/youtube.png" alt="" width="40px" height="40px"></a>
+                <a href="https://twitter.com/SJsquare15" target="_blank"><img src="./Images/twitter.png" alt="" width="40px" height="40px"></a>
+
+          </ul>
+        </div>
+
+        <hr class="horizontal-line">
+
+        <p class="copyright">
+          Developed with <i class="icon ion-heart" style="color: red;"></i> by Sanket Jagtap
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- js for toggling the menu -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menuToggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</body>
+
+</html>
