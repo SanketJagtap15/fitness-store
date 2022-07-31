@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: radial-gradient(#fff, #f1dddd);
 }
 
 html{
@@ -182,7 +183,7 @@ h4 {
 }
 
 .col-4:hover {
-  transform: translateY(-10px);
+  transform: translateY(-20px);
 }
 
 /* -----offer----- */
@@ -212,6 +213,7 @@ small {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform(1s);
+  background-color: #ffff;
 }
 
 .testimonial .col-3 img {
@@ -221,7 +223,7 @@ small {
 }
 
 .testimonial .col-3:hover {
-  transform: translateY(-10px);
+  transform: translateY(-25px);
 }
 
 .fa.fa-quote-left {
